@@ -1,0 +1,29 @@
+{
+  "name": "@qrohlf/bones",
+  "version": "0.0.1",
+  "description": "A simple Javascript scaffolding tool",
+  "repository": "github:qrohlf/bones",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "postinstall": "node scripts/postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bones": "./lib/index.js"
+  },
+  "keywords": [
+    "scaffolding",
+    "generator",
+    "boilerplate",
+    "skeleton"
+  ],
+  "author": "Quinn Rohlf <qr@qrohlf.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
+  }
+}

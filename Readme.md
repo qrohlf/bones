@@ -28,6 +28,13 @@ bones component MyComponent
 $EDITOR ./MyComponent
 ```
 
+4. Add your own 'bones':
+
+```
+mkdir .bones/mytemplate
+vim .bones/mytemplate/__name__.js
+```
+
 ## Usage
 
 Bones operates on templates that you define in the `.bones` directory of your
@@ -48,7 +55,12 @@ of the argument list.
 
 Bones uses a whitelist to determine which files to run through the template
 engine and which files to copy. See the [default config](./lib/defaultConfig.js)
-for a list of file extensions that are interpreted as templates
+for a list of file extensions that are interpreted as templates.
+
+## Examples
+
+You can see some template examples in the [.bones](./.bones) directory of this
+repo.
 
 ## Customization
 

@@ -53,6 +53,20 @@ The `__name__` parameter is populated by default with the basename of the
 destination argument. You can override this by passing `name=YOURNAME` as part
 of the argument list.
 
+There are also a number of string helpers you can use for transforming variables.
+The syntax for doing this is `__name|snakeCase`. The currently available helpers
+are:
+
+| helper | output|
+| - | - |
+|`camelCase`|fooBar|
+|`pascalCase`|FooBar|
+|`snakeCase`|foo_bar|
+|`kebabCase`|foo-bar|
+|`upperCase`|FOOBAR|
+|`upperSnakeCase`|FOO_BAR|
+|`lowerCase`|foobar|
+
 Bones uses a whitelist to determine which files to run through the template
 engine and which files to copy. See the [default config](./lib/defaultConfig.js)
 for a list of file extensions that are interpreted as templates.

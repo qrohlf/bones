@@ -21,9 +21,9 @@
   "author": "Quinn Rohlf <qr@qrohlf.com>",
   "license": "MIT",
   "dependencies": {
-    "mustache": "^2.3.0"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "standard": "^11.0.0"
+    "standard": "^11.0.1"
   }
 }

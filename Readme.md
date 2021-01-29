@@ -54,7 +54,7 @@ destination argument. You can override this by passing `name=YOURNAME` as part
 of the argument list.
 
 There are also a number of string helpers you can use for transforming variables.
-The syntax for doing this is `__name|snakeCase`. The currently available helpers
+The syntax for doing this is `__argName|transformName__` (so, for example `__name|snakeCase__` would be useful if you wanted to take a react ComponentName and transform it to a `class_name` for use in your CSS). The currently available helpers
 are:
 
 | helper | output|

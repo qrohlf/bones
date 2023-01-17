@@ -67,8 +67,8 @@ are:
 |`upperSnakeCase`|FOO_BAR|
 |`lowerCase`|foobar|
 
-Bones uses a whitelist to determine which files to run through the template
-engine and which files to copy. See the [default config](./lib/defaultConfig.js)
+Bones uses an allow list of file extensions to determine which files to run through the template
+engine and which files to copy verbatim. See the [default config](./lib/defaultConfig.js)
 for a list of file extensions that are interpreted as templates.
 
 ## Examples

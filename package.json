@@ -23,6 +23,6 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "standard": "^11.0.1"
+    "standard": "^17.0.0"
   }
 }

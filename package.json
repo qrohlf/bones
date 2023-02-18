@@ -6,7 +6,6 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "standard",
-    "postinstall": "node scripts/postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
